@@ -1,8 +1,8 @@
-var g1 = [" Hugo", " Jennifer"];
-var g2 = [" Jessica", " Eleanor"];
-var g3 = [" Hasan"];
-var g4 = [" Samuel"];
-var g5 = [" Luca", " Harry N"];
+var g1 = [];
+var g2 = [];
+var g3 = [];
+var g4 = [];
+var g5 = [];
 
 var n1 = 2;
 var n2 = 2;
@@ -11,7 +11,7 @@ var n4 = 1;
 var n5 = 1;
 
 
-var pool = [" Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
+var pool = [" Kylie", " Harry N", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
 
 function randomiser() {
     for (i = 0; i < pool.length; i++) {
@@ -64,7 +64,9 @@ function begin() {
         while (pool.length != 0) {
             randomiser()
         }
-        g2.push(" Kylie")
+        g3.push(" Hasan")
+        g4.push(" Samuel")
+        g5.push(" Luca")
         document.getElementById("g1").innerHTML += g1
         document.getElementById("g2").innerHTML += g2
         document.getElementById("g3").innerHTML += g3
