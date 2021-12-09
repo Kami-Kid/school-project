@@ -4,11 +4,11 @@ var g3 = [];
 var g4 = [];
 var g5 = [];
 
-var n1 = 2;
-var n2 = 2;
-var n3 = 1;
-var n4 = 1;
-var n5 = 1;
+var n1 = 0;
+var n2 = 0;
+var n3 = 0;
+var n4 = 0;
+var n5 = 0;
 
 
 var pool = [" Kylie", " Harry N", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
