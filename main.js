@@ -6,12 +6,12 @@ var g5 = [];
 
 var n1 = 0;
 var n2 = 0;
-var n3 = 1;
+var n3 = 0;
 var n4 = 1;
 var n5 = 1;
 
 
-var pool = [" Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
+var pool = ["hi", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
 
 function randomiser() {
     for (i = 0; i < pool.length; i++) {
