@@ -11,13 +11,13 @@ var n4 = 0;
 var n5 = 0;
 
 
-var pool = [" Luca", " Harry N", " Samuel", " Kylie", " Hasan", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
+var pool = ["Wiktoria", " Luca", " Harry N", " Samuel", " Kylie", " Hasan", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
 
 function randomiser() {
     for (i = 0; i < 30; i++) {
         switch (Math.round((Math.random() * 4) + 1)) {
             case 1:
-                if (n1 != 6) {
+                if (n1 != 7) {
                     g1.push(pool[0])
                     pool.shift()
                     n1++
