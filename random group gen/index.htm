@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group randomiser</title>
+    <style>
+        table {
+            font-family: monospace;
+            font-size: xx-large;
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 2%;
+        }
+        
+        td {
+            border: 1px solid slategray;
+            padding: 0px;
+            text-align: center;
+            font-size: larger;
+        }
+        
+        th {
+            border: 1px solid slategray;
+            padding: 0px;
+            text-align: center;
+        }
+        
+        option {
+            background-color: beige;
+            color: darkgreen;
+        }
+        
+        select {
+            background-color: bisque;
+            color: darkgreen;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: left; padding: 5px;">
+        <button onclick="begin()" style="margin-left: 20%; margin-top: 1%; padding: 10px; background-color: aqua;"> Generate random groups</button>
+        <!--<p id="g1" style="font-size: large;"><br>Group one:</p>-->
+        <!--<br>-->
+        <!--<p id="g2" style="font-size: large;"><br>Group two:</p>-->
+        <!--<br>-->
+        <!--<p id="g3" style="font-size: large;"><br>Group three:</p>-->
+        <!--<br>-->
+        <!--<p id="g4" style="font-size: large;"><br>Group four:</p>-->
+        <!--<br>-->
+        <!--<p id="g5" style="font-size: large;"><br>Group five:</p>-->
+
+        <br>
+
+        <table id="table">
+            <tr>
+                <th rowspan="1">Group</td>
+                    <th colspan="7">Students</td>
+            </tr>
+        </table>
+    </div>
+    <div class="nameGetter" id="nameGetter" style="top: 5px; left: -70%; position: absolute; text-align: center; margin-top: 1%;">
+        <!--<form id="selection">-->
+        <label for="grpselect">Choose group to select from: </label>
+        <select name="selector" id="grpselect">
+            <option value="0">Please Select A Group</option>
+            <option value="1">Group 1</option>
+            <option value="2">Group 2</option>
+            <option value="3">Group 3</option>
+            <option value="4">Group 4</option>
+            <option value="5">Group 5</option>
+            <option value="6">Fully Random</option>
+        </select>
+        <button onclick="genName();console.log(gathername())" style="margin-right: 5%; margin-top: 10%;">Submit</button>
+        <br><br>
+        <span style="font-size: larger;" id="result"></span>
+        <!--</form>-->
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
