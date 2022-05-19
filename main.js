@@ -11,14 +11,14 @@ let n4 = 0;
 let n5 = 0;
 
 
-let pool = ["Wiktoria", " Luca", " Harry N", " Samuel", " Kylie", " Hasan", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
-const backup = ["Wiktoria", " Luca", " Harry N", " Samuel", " Kylie", " Hasan", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Hilde", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
+let pool = ["Wiktoria", " Luca", " Harry N", " Samuel", " Kylie", " Hasan", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
+const backup = ["Wiktoria", " Luca", " Harry N", " Samuel", " Kylie", " Hasan", " Jessica", " Eleanor", " Hugo", " Jennifer", " Natalia", " Aaminah", " Ahsan", " Helin", " Khabab", " Emily", " Clara", " Phoebe", " Matthew", " Amelia", " Lily", " Jasmine", " Sara", " Ari", " Nadav", " Storm", " Harry W", " Isaac", " Jakub", " Raphie"];
 
 function randomiser() {
     for (i = 0; i < 30; i++) {
         switch (Math.floor((Math.random() * 5) + 1)) {
             case 1:
-                if (n1 != 7) {
+                if (n1 != 6) {
                     g1.push(pool[0])
                     pool.shift()
                     n1++
